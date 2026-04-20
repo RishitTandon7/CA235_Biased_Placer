@@ -116,3 +116,9 @@ The BigBlue4 benchmark (ISPD 2005) has 2.1M cells. For tractability:
 - The synthetic generator creates a **scaled-down** version with configurable cell count
 - Algorithms use **cell clustering** (k-means) to reduce dimensionality
 - If you have the real BigBlue4 files, place the `.aux` file in `benchmarks/` and use `--benchmark`
+
+## Implementation Details (2026-04-20)
+- Cellular Automata (CA235) placement algorithm
+- Hybrid SBO approach for optimization
+- PSO-based metaheuristic strategy
+- Comprehensive ISPD benchmarking
